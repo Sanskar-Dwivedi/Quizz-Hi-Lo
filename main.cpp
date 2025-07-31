@@ -47,14 +47,15 @@ void guesser()
                 {
                     guess = 0;
                     answer = randomOutput();
+                    hasWon=false;
+                    break;
                 }
                 else if (re == 'n' || re == 'N')
                 {
                     std::cout << "Thank you for playing <3";
                     std::exit(0);
                 }
-                else
-                    continue;
+                
             }
         }
     }
